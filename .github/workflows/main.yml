@@ -3,6 +3,7 @@ on:
   push:
 jobs:
   build:
+    environment: Test
     name: Build
     runs-on: ubuntu-latest
     env:
