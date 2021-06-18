@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    environment: Test2
+    environment: Test3
     name: Build
     runs-on: ubuntu-latest
     env:
